@@ -1,0 +1,12 @@
+Scott Moss's course API design V3: https://frontendmasters.com/courses/api-design-nodejs-v3/
+Babel docs: https://babeljs.io/docs/en/
+NodeMon: https://www.npmjs.com/package/nodemon
+Express docs: https://expressjs.com/en/5x/api.html
+Mongoose docs: https://mongoosejs.com/docs/
+Status Codes: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+JWT: https://jwt.io/introduction
+cors: https://github.com/expressjs/cors#readme
+morgan: https://github.com/expressjs/morgan#readme
+body-parser: https://github.com/expressjs/body-parser#readme
+express validator: https://express-validator.github.io/docs/
+Specific feilds populate: https://stackoverflow.com/questions/26691543/return-certain-fields-with-populate-from-mongoose
