@@ -48,12 +48,12 @@ export async function signin(req, res) {
       .select('email password')
       .exec();
     if (!user) {
-      return sendError(res, 'Email not found', 401);
+      return sendError(res, 'Email not found', 400);
     }
 
     var match = await user.checkPassword(password);
     if (!match) {
-      return sendError(res, 'Wrong Password', 401);
+      return sendError(res, 'Wrong Password', 400);
     }
 
     const token = newToken(user);

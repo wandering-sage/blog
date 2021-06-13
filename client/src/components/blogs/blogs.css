@@ -1,0 +1,19 @@
+.blog-container{
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.grid{
+  margin: auto;
+  max-width: max-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+@media screen and (max-width: 620px) {
+  .grid{
+    width: 250px;
+    grid-template-columns: 1fr;
+  }
+}

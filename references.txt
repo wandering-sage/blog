@@ -10,3 +10,11 @@ morgan: https://github.com/expressjs/morgan#readme
 body-parser: https://github.com/expressjs/body-parser#readme
 express validator: https://express-validator.github.io/docs/
 Specific feilds populate: https://stackoverflow.com/questions/26691543/return-certain-fields-with-populate-from-mongoose
+React course: https://frontendmasters.com/courses/complete-react-v6/
+create react app: https://reactjs.org/docs/create-a-new-react-app.html
+React docs: https://reactjs.org/docs/getting-started.html
+Css Flex: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Css Grids: https://css-tricks.com/snippets/css/complete-guide-grid/
+useRef : https://www.youtube.com/watch?v=t2ypzz6gJm0
+React router dom: https://reactrouter.com/web/guides/quick-start
+Axios: https://www.sitepoint.com/axios-beginner-guide/

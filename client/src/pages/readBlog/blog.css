@@ -1,0 +1,31 @@
+.like-comment{
+  width: 50%;
+  margin: 30px auto;
+}
+.like-cmt-icon{
+  display: flex;
+  margin-bottom: 25px;
+}
+.likes-icon,
+.cmts-icon{
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+span.likes,
+span.cmts{
+  font-family: "Rubik", sans-serif;
+  margin-left: 10px;
+}
+h3{
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.3em;
+  padding: 5px 0;
+  margin-bottom: 16px;
+}
+.underline{
+  border-bottom: 1px solid rgba(34,36,38,.25);
+}

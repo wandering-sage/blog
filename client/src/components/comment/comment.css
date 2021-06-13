@@ -1,0 +1,25 @@
+.avatar svg{
+  width: 40px;
+  fill: #aaa;
+}
+.comment{
+  margin: .5em 0 0;
+  padding: .5em 0 0;
+  display: flex;
+  font-family: "Rubik", sans-serif;
+}
+.name{
+  margin-left: 10px;
+  display: inline;
+  font-weight: 500;
+  color: #444;
+}
+.comment .meta{
+  margin-left: 10px;
+  display: inline;
+}
+.comment .text{
+  margin-top: 5px;
+  margin-left: 15px;
+  color: #666;
+}

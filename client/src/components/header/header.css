@@ -1,0 +1,10 @@
+.header{
+  width: 90%;
+  margin: 50px auto;
+}
+.title{
+  font-family: "Rubik",sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  color: #000;
+}

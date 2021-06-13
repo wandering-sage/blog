@@ -1,0 +1,31 @@
+.single-blog{
+  width: 50%;
+  margin: 35px auto;
+  font-family: "Rubik",sans-serif;
+}
+.blog-heading{
+  font-size: 2.5em;
+  color: #212121;
+  font-weight: 600;
+}
+
+.blog-image{
+  width: 100%;
+  margin: 30px 0;
+}
+.blog-image img{
+  width: 100%;
+}
+
+.blog-content{
+  font-size: 1.2rem;
+  line-height: 1.8em;
+  color: #333;
+}
+
+
+@media screen and (max-width: 620px) {
+  .single-blog{
+    width: 90%;
+  }
+}
