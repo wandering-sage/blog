@@ -1,0 +1,6 @@
+VS code
+mongoDB
+express
+react
+node.js
+for more detailed info check package.json in github repo
