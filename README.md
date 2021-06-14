@@ -63,8 +63,10 @@ npm start
 ```
 
 ## File Structure
+
+### Backend
 ```
-.
+api
 └───src
     │   index.js
     │   server.js
@@ -101,7 +103,26 @@ npm start
             error.js
 ```
 
-## Features
-- 
-
-## What I learnt
+### FrontEnd
+```
+client
+└───src
+    │   app.css
+    │   App.js
+    │   backend.js
+    │   index.js
+    │   user.js
+    │
+    ├───components
+    │   ├───addComment
+    │   ├───blogs
+    │   ├───comment
+    │   ├───header
+    │   ├───navbar
+    │   └───singleBlog
+    └───pages
+        ├───login
+        ├───readBlog
+        ├───signup
+        └───writeBlog
+```
