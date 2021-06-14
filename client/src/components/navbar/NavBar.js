@@ -1,8 +1,11 @@
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { user } from "../../user";
 import "./navbar.css";
 
 export default function NavBar() {
+	const menu = useRef();
+	const mediaQuery = window.matchMedia('(max-width: 650px)')
 	return (
 		<div className="navbar">
 			<div className="logo">
@@ -39,11 +42,60 @@ export default function NavBar() {
 					</>
 				)}
 			</div>
+			{
+				mediaQuery.matches?(
+					<div className="menu" onClick={openMenu}>
+						<i className="fas fa-bars"></i>
+					</div>
+				):(
+					<></>
+				)
+			}
+			{
+				mediaQuery.matches?(
+					<div ref={menu} className="menu-container">
+						<div className="closebtn" onClick={closeMenu}>
+							<i class="far fa-times-circle"></i>
+						</div>
+						<Link className="link" to="/"><div className="item" onClick={closeMenu}>HOME</div></Link>
+						{user==="admin" ? (
+								<Link className="link" to="/write"><div className="item" onClick={closeMenu}>WRITE</div></Link>
+						) : (	
+							<div></div>
+						)}
+						{user ? (
+								<div onClick={()=>{logUserOut(); closeMenu();}} className="item">LOGOUT</div>
+						) : (
+							<div></div>
+						)}
+						{user ? (
+							<div className="item">UserName</div>
+						) : (
+							<>
+								<div className="item" onClick={closeMenu}>
+										<Link className="link" to="/login"><button className="loginbtn">LOG IN</button></Link>
+								</div>
+								<div className="item" onClick={closeMenu}>
+										<Link className="link" to="/register"><button className="registarbtn">REGISTER</button></Link>
+								</div>
+							</>
+						)}
+					</div>
+				):(
+					<></>
+				)
+			}
 		</div>
 	);
 	function logUserOut(){
 		localStorage.removeItem("user");
 		localStorage.removeItem("token");
 		window.location.reload();
+	}
+	function openMenu(e){
+		menu.current.classList.add("show")
+	}
+	function closeMenu(e){
+		menu.current.classList.remove("show")
 	}
 }

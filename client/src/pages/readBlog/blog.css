@@ -29,3 +29,9 @@ h3{
 .underline{
   border-bottom: 1px solid rgba(34,36,38,.25);
 }
+
+@media screen and (max-width: 650px) {
+  .like-comment{
+    width: 80%;
+  }
+}

@@ -65,3 +65,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 650px) {
+  .write{
+    width: 80%;
+  }
+  .writeForm{
+    margin-top: 60px;
+  }
+  .writeSubmit{
+    top: -50px;
+    height: 36px;
+    width: 120px;
+  }
+}
