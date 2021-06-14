@@ -29,6 +29,12 @@ git clone https://github.com/wandering-sage/blog.git
 cd blog
 ```
 
+### Backend
+
+-To start backend, change directory to api
+```bash
+cd api
+```
 - Type npm install to install the dependencies.
 - Type npm run build, to transpile the code to ./dist
 - Type npm start to start the program.
@@ -37,14 +43,24 @@ npm install
 npm run build
 npm start
 ```
-
 - You can use npm dev to start a development server.
 ```bash
 npm run dev
 ```
-
-- The website will be running at [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
+- The website will be running at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 - Enjoy!
+
+### FrontEnd
+- To Launch FrontEnd of this porject, go inside client directory
+```bash
+cd client
+```
+- Type npm install to install the dependencies.
+- Type npm start to launch.
+```bash
+npm install
+npm start
+```
 
 ## File Structure
 ```
