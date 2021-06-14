@@ -17,6 +17,7 @@
 
 ## Project in Action
 
+<img src="/blog_ss.png">
 
 ## Getting Started
 - Clone this repo and unzip the folder wherever you want.
